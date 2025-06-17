@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'auth/auth_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    home: AuthScreen(),
+  ));
 }
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
